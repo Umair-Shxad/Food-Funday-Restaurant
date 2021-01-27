@@ -1,0 +1,313 @@
+
+@media (max-width:1200px){
+    #my-Navigation .navbar-nav a{
+        padding: 43px 0 10px;
+        margin: 0 7px;
+    }
+}
+
+
+@media (max-width:991px){
+
+    #my-Navigation .navbar-header{
+        float: none;
+    }
+    #my-Navigation .navbar-toggle{
+        display: block;
+        padding: 25px 0 0;
+        border: 0;
+    }
+    #my-Navigation .navbar-toggle:hover{
+        background: transparent;
+        cursor: pointer;
+    }
+    #my-Navigation .navbar-nav{
+        float: left!important;
+        width: 100%;
+        height: 100%;
+        display: none;
+        z-index: 55;
+    }
+    #my-Navigation .navbar-nav li{
+        float: none;
+    }
+    #my-Navigation .icon-bar{
+        background: #e75b1e;
+        margin: 8px 0;
+        width: 35px;
+    }
+    #my-Navigation .navbar-nav a{
+        font-size: .9rem;
+        padding: 0 0 15px;
+        margin: 5px 0 15px;
+    }
+    #my-Navigation .container .navbar-collapse{
+        background: #202020;
+        padding: 0 0 0 5px;
+    }
+    #my-Navigation.scroll-nav .navbar-nav a{
+        padding: 0 0 20px;
+        margin: 0 0 20px;
+    }
+    #my-Navigation.scroll-nav .navbar-collapse{
+        padding: 0;
+    }
+
+    .banner-wrapper{
+        height: auto;
+    }
+    .banner-text {
+        padding: 28% 5% 2%;
+    }
+    .banner-text h1 {
+        font-size: 3.8rem;
+    }
+
+    .about-inset {
+        right: 4%;
+    }
+
+
+    .headings {
+        padding: 0 17% 0;
+    }
+    .headings p, .team-headings p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .team-box {
+        margin-bottom: 30px;
+    }
+
+    .blog-details h2 {
+        font-size: 1rem;
+    }
+    .blog-post .blog-details {
+        padding: .5rem 5px;
+    }
+
+    .price-tag {
+        padding: 25px 0;
+    }
+    .price-tag h1{
+        font-size: 2rem;
+    }
+    .price-list li {
+        padding: 10px 0;
+    }
+
+    .news-content {
+        width: 80%;
+    }
+    .timing, .contact-list{
+        margin-top: 1.5rem;
+    }
+    .contact-list .floated-s{
+        float: none;
+    }
+}
+
+
+@media (max-width:767px){
+    #my-Navigation .container .navbar-collapse{
+        padding: 0 0 0 30px;
+        border: 0;
+    }
+    #my-Navigation .logo {
+        width: auto;
+        max-width: 180px;
+        margin-top: 10px;
+    }
+    #my-Navigation .container .navbar-collapse li a{
+        font-weight: 400;
+    }
+    .banner-wrapper{
+        height: 100vh;
+    }
+    .mouse{
+        display: none;
+    }
+
+    .blog-post .blog-image {
+        width: 100%;
+        clear: both;
+    }
+    .blog-post .blog-image img{
+        width: 100%;
+    }
+    .blog-post .blog-details {
+        width: 100%;
+        clear: both;
+    }
+
+
+    .nav-title h3 {
+        font-size: 1rem;
+        padding-bottom: .5rem;
+    }
+    .slider-content{
+        text-align: center;
+    }
+    .offer-item img{
+        float: none;
+        margin: 0 auto;
+    }
+    .offer-deatil{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+    .offer-deatil h3{
+        font-size: 1.2rem;
+        padding-top: .9rem;
+    }
+    .offer-off {
+        display: none;
+    }
+
+    .price-card{
+        margin-bottom: 1.8rem;
+    }
+
+    .new-menu-list{
+        margin-top: 1.5rem;
+    }
+
+    .reservaion-headings h1{
+        font-size: 2.5rem;
+    }
+
+    .reservaion-form{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-text {
+        padding: 55% 10% 2%;
+    }
+    .banner-text h1 {
+        font-size: 3.3rem;
+    }
+    .banner-text h2 {
+        font-size: 1.8rem;
+    }
+    .banner-text p {
+        margin: 1.3rem 0;
+        font-size: 1.1rem;
+    }
+
+    .aboutus-wrapper h2 {
+        font-size: 2.2rem;
+    }
+
+    .headings {
+        padding: 10% 0 0;
+    }
+    .headings h1, .menu-headings h1, .gallery-headings h1  {
+        font-size: 2rem;
+    }
+    .headings p, .team-headings p, .menu-headings p, .gallery-headings p{
+        font-size: .9rem;
+    }
+    
+    h3 {
+        font-size: .9rem;
+        display: inline-block;
+    }
+    .nav-title h3::after {
+        width: 100%;
+    }
+    .nav-title i {
+        display: block;
+        font-size: 35px;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 35px;
+    }
+
+    .offer-item img {
+        width: 50%;
+    }
+
+    .gal-col {
+        padding: 3px 0 3px;
+    }
+
+    .pricing-headings h1{
+        font-size: 2.2rem;
+        margin-bottom: 0;
+    }
+    .pricing-headings p{
+        font-size: .9rem;
+        padding: 0 0;
+        margin: 1.3rem 0;
+        line-height: 1.2rem;
+    }
+
+    .news-content {
+        width: 90%;
+    }
+}
+
+@media (max-width:422px){
+    .nav-title h3 {
+        font-size: .9rem;
+    }
+    .slider-nav{
+        position: relative;
+    }
+
+    .slick-prev{
+        position: absolute;
+        top: -20px;
+        left: 0;
+        height: 30px;
+        width: 30px;
+        z-index: 4;
+    }
+
+    .slick-prev::before {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background: #e75b1e url("../img/back.png") no-repeat left center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 1!important;
+        border-radius: 50%;
+    }
+    .slick-prev:hover::before{
+        background: #e75b1e url("../img/back_hover.png") no-repeat left center;
+    }
+
+    .slick-next{
+        position: absolute;
+        top: -20px;
+        right: 0;
+        height: 30px;
+        width: 30px;
+    }
+    .slick-next::before {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background: #e75b1e url("../img/next.png") no-repeat center right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 1!important;
+        border-radius: 50%;
+    }
+    .slick-next:hover::before{
+        background:  #e75b1e url("../img/next_hover.png") no-repeat center right;
+    } 
+
+    .copyright{
+        font-size: .9rem;
+    }
+}
